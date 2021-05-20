@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CELL PHONE DETAILS</title>
+    <style>
+        #s1{
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: beige;
+        }
+        #s2{
+            background-color: aquamarine;
+            text-indent: 5em;
+        }
+
+    </style>
+</head>
+<body>
+<h1 style="font-family: Gabriola"><center>CELL PHONE DETAILS</center></h1>
+<form id="s1" style="border: solid black 2px" action="./PDOInsert.php" method="post" >
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="IMEI">IMEI</label>
+    <input type="text" id="IMEI"" name="IMEI"><br><br>
+    <label for="des">Model Number</label>
+    <input type="text" id="model_number" name="model_number"><br><br>
+    <label for="price">Price</label>
+    <input type="text" id="price" name="price"><br><br>
+    <label for="release_year">Realse Year</label>
+    <input type="text" id="release_year" name="release_year"><br><br>
+
+    <input type="submit" value="Save">
+    <input type="submit" value="DataBase" formaction="./EmployeFoamSelection.php">
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LapWord</title>
+</head>
+<body >
+<h1 style="font-family: Gabriola"> <center>Sign Up Foam</center></h1>
+    <form id="s1" style="border: solid black 2px" action=./PDOStaffInsertion.php method="post"  >
+        <table>
+            <tr>
+                <td> <label for="name">Name</label></td>
+                <td><input type="text" id="fname" name="fname"><br><br></td>
+                <td><input type="text" id="lname" name="lname"><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="radio">Gender</label></td>
+                <td>    <label for="radio">Male</label>
+                   <input type="radio" id="male" name="gender" value="Male"></td>
+               <td> <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female"></td>
+            </tr>
+            <tr>
+                <td> <lable>Eye Colour</lable></td>
+                <td><select name="colour" id="colour">
+                    <option value="blueStar">Blue Star</option>
+                    <option value="lipas">Lipas</option>
+                    <option value="nomad">Nomad</option>
+                    <option value="parisbrun">Paris Brun</option>
+                    <option value="cobalt">Cobalt</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> <label for="phone">Phone</label></td>
+                <td><input type="text" id="phone" name="phone"><br><br></td>
+
+            </tr>
+            <tr>
+                <td> <label for="des">Description</label></td>
+                <td><input type="text" id="des" name="des"\
+                ><br><br></td>
+            </tr>
+            <tr>
+                <td> <label for="name">Street Address</label></td>
+                <td ><input type="text" id="sAddress" name="sAddress"><br><br></td>
+            </tr>
+             <tr>
+                <td>    <input type="checkbox" id="over18" name="age">
+                <label for="over18"> Over 18</label><br>
+                <input type="checkbox" id="over25" name="age">
+                <label for="over25"> Over 25</label><br>
+                <input type="checkbox" id="over50" name="age">
+                <label for="over50"> Over 50 </label><br></td>
+             </tr>
+
+           <tr><td><input type="submit" value="SIGN UP"></td></tr>
+           <tr><td><input type="submit" value="View Record" formaction="./Selection.php"></td></tr>
+        </table>
+
+</body>
+</html>

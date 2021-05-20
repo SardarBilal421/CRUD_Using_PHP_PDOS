@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suppliers Record</title>
+    <style>
+        #s1{
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: beige;
+        }
+        #s2{
+            background-color: aquamarine;
+            text-indent: 5em;
+        }
+
+    </style>
+</head>
+
+<body>
+        <h1 style="font-family: Gabriola"><center>Supplier Data Records</center></h1>
+        <form id="s1" style="border: solid black 2px" action=./PDOSuppliersInsertion.php method="post" >
+
+            <label for="assetId">Asset ID</label>
+            <input type="text" id="assetId" name="asset_id"><br><br>
+            <label for="s_name">Supplier Name</label>
+            <input type="text" id="s_name" name="SupplierName"><br><br>
+            <label for="des">Description</label>
+            <input type="text" id="des" name="description"><br><br>
+            <label for="item">Item</label>
+            <input type="text" id="item" name="item"><br><br>
+            <input type="submit" value="Save">
+        </form>
+</body>
+</html>
